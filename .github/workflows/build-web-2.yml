@@ -1,0 +1,25 @@
+name: Build web 2
+on:
+  workflow_dispatch:
+
+concurrency: ${{ github.workflow }}
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: ./.github/actions/setup-node-2
+        with:
+          node-version-file: ./package.json
+          cache-key-prefix: ${{ runner.os }}-node24
+          no-save-cache: true
+
+      - name: build
+        run: |
+          yarn workspace web build

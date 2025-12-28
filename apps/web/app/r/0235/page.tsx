@@ -1,0 +1,40 @@
+import { m0195, m0208, m0221, m0234, m0247, m0010, m0023, m0036, m0049, m0062, m0075, m0088, m0101, m0114, m0127, m0140, m0153, m0166, m0179, m0192, m0205, m0218, m0231, m0244, m0007, m0020, m0033, m0046, m0059, m0072 } from "../../../src/gen";
+
+export default function Page() {
+const v0 = m0195(235 + 0);
+const v1 = m0208(235 + 1);
+const v2 = m0221(235 + 2);
+const v3 = m0234(235 + 3);
+const v4 = m0247(235 + 4);
+const v5 = m0010(235 + 5);
+const v6 = m0023(235 + 6);
+const v7 = m0036(235 + 7);
+const v8 = m0049(235 + 8);
+const v9 = m0062(235 + 9);
+const v10 = m0075(235 + 10);
+const v11 = m0088(235 + 11);
+const v12 = m0101(235 + 12);
+const v13 = m0114(235 + 13);
+const v14 = m0127(235 + 14);
+const v15 = m0140(235 + 15);
+const v16 = m0153(235 + 16);
+const v17 = m0166(235 + 17);
+const v18 = m0179(235 + 18);
+const v19 = m0192(235 + 19);
+const v20 = m0205(235 + 20);
+const v21 = m0218(235 + 21);
+const v22 = m0231(235 + 22);
+const v23 = m0244(235 + 23);
+const v24 = m0007(235 + 24);
+const v25 = m0020(235 + 25);
+const v26 = m0033(235 + 26);
+const v27 = m0046(235 + 27);
+const v28 = m0059(235 + 28);
+const v29 = m0072(235 + 29);
+  return (
+    <main>
+      <h1>route 0235</h1>
+      <p>{String(v0).slice(0, 10)}</p>
+    </main>
+  );
+}
